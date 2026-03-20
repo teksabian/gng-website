@@ -182,7 +182,8 @@ ul{list-style:none}
 .features-visual img{max-width:320px;border-radius:20px;box-shadow:0 30px 80px rgba(124,58,237,.2),0 0 0 1px rgba(124,58,237,.1)}
 
 /* Big CTA under features visual */
-.features-cta{text-align:center;padding:2rem;background:linear-gradient(135deg,rgba(124,58,237,.08),rgba(6,182,212,.06));border:1px solid rgba(124,58,237,.12);border-radius:16px;width:100%;max-width:350px}
+.features-cta{text-align:center;padding:2rem;background:linear-gradient(135deg,rgba(124,58,237,.08),rgba(6,182,212,.06));border:1px solid rgba(124,58,237,.12);border-radius:16px;width:100%;max-width:350px;display:flex;flex-direction:column;align-items:center;gap:1rem}
+.features-cta .btn{width:100%;justify-content:center}
 .features-cta p{font-family:var(--font-d);font-size:1rem;font-weight:600;color:var(--cloud);margin-bottom:1rem}
 .features-cta .price{font-family:var(--font-d);font-size:1.8rem;font-weight:800;background:linear-gradient(135deg,var(--gold),var(--gold-bright));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:.3rem}
 
